@@ -1,0 +1,14 @@
+import os
+
+PINECONE=os.getenv("PINECONE","a9971775-f14a-4f56-8571-e7f1be52274b")
+PINECONE_REGION=os.getenv("PINECONE_REGION","us-east4-gcp")
+OPENAI=os.getenv("OPENAI","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")
+# OPENAI=os.getenv("OPENAI","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")
+
+
+
+SECREAT_KEY=os.getenv("SECREAT_KEY","secreatekey")
+ALGORITHM=os.getenv("ALGORITHM","HS256")
+ACCESS_TOKEN_EXPIRE_MINUTES=os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES",30)
+
+HUGGINGFACE_KEY=os.getenv("HUGGINGFACE_KEY","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")
